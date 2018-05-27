@@ -4,9 +4,11 @@
   "description": "A sample Node.js app using Express 4",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "node test.js"
   },
   "dependencies": {
+    "ejs": "^2.6.1",
     "express": "^4.13.3"
   },
   "engines": {
@@ -18,12 +20,12 @@
   },
   "keywords": [
     "node",
-    "heroku",
     "express"
   ],
-  "author": "Mark Pundsack",
-  "contributors": [
-    "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)"
-  ],
-  "license": "MIT"
+  "author": "Ahmed Abdulrahman",
+  "license": "MIT",
+  "devDependencies": {
+    "request": "^2.87.0",
+    "tape": "^4.9.0"
+  }
 }
